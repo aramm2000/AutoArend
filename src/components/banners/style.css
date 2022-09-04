@@ -183,3 +183,35 @@
     color: white;
     border-color: #f51e45;
 }
+
+
+.about_div{
+    background-color: white;
+}
+
+.sale_div > .block_three{
+    width: 70%;
+    margin: 0 auto;
+    text-align: left;
+    padding: 50px 0;
+    color: white;
+    padding: 100px 0;
+}
+.sale_div > .block_three > h2{
+    font-weight: 400;
+    font-size: 30px;
+}
+.sale_div > .block_three > p {
+    padding: 30px 0 30px;
+}
+.sale_div > .block_three > a{
+    padding: 17px 33px;
+    background-color: #f51e45;
+    text-decoration: none;
+    color: white;
+    transition: all .3s;
+    border-radius: 25px;
+}
+.sale_div > .block_three > a:hover{
+    background-color: #291f21;
+}

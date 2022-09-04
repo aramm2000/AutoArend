@@ -4,7 +4,7 @@ import './style.css'
 
 export default function index() {
   return (
-    <div>
+    <div className='heade_div'>
       <div className="component_first">
         <div className="logo_div">
         <a href="#" className='Logo'><i className="fa fa-car"></i>CARGET</a>

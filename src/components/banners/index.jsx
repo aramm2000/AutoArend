@@ -3,6 +3,7 @@ import './style.css'
 import Cars from '../advantage'
 import About from './aboutCompany'
 import Rental from './carRental'
+import Sale from './sale'
 
 
 
@@ -26,6 +27,7 @@ export default function index() {
             <div className="divv">
                 <Rental/>
             </div>
+            <Sale/>
             
         </div>
     )
