@@ -7,7 +7,7 @@ export default function index() {
     <div>
       <div className="component_first">
         <div className="logo_div">
-        <a href="#" className='Logo'><i class="fa-solid fa-car"></i>CARGET</a>
+        <a href="#" className='Logo'><i className="fa fa-car"></i>CARGET</a>
         </div>
         <div className="menu">
             <ul>

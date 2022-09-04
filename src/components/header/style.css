@@ -31,10 +31,8 @@ ul{
     height: 90px;
     color: #63666a;
     display: flex;
-    transition: .3s all ease;
     align-items: center;
 }
 .menu > ul > li > a:hover{
-    transition: .3s all ease;
     border-bottom: 2px solid red;
 }
