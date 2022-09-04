@@ -1,6 +1,9 @@
 import React from "react";
 import './style.css'
-import Cars from './../data'
+import Cars from '../advantage'
+import About from './aboutCompany'
+import Rental from './carRental'
+
 
 
 export default function index() {
@@ -18,6 +21,10 @@ export default function index() {
             </div>
             <div className="banner_two">
             <Cars/>
+            </div>
+            <About/>
+            <div className="divv">
+                <Rental/>
             </div>
             
         </div>

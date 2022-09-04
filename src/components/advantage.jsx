@@ -20,7 +20,7 @@ const data = () => {
                     <div className='text'>{item.name_two}</div>
                 </div>
                 )
-                
+            
             })}
         </div>
     )
