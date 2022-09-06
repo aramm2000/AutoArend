@@ -156,14 +156,7 @@
  .information > .text_div > h2{
     margin-bottom: 25px;
 }
-.order {
-    text-decoration: none;
-    color: black;
-    border: 2px solid black;
-    border-radius: 25px;
-    padding: 10px 25px;
-    transition: .5s;
-}
+
 .inform{
     padding: 20px 0 50px;
 }
@@ -178,11 +171,7 @@
     box-sizing: border-box;
     border-bottom: #f51e45 2px solid;
 }
-.order:hover{
-    background-color: #f51e45;
-    color: white;
-    border-color: #f51e45;
-}
+
 
 
 .about_div{

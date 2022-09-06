@@ -1,0 +1,14 @@
+.order {
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 10px 25px;
+    transition: .5s;
+    text-transform: uppercase;
+}
+.order:hover{
+    background-color: #f51e45;
+    color: white;
+    border-color: #f51e45;
+}

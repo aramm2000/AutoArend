@@ -1,5 +1,5 @@
 import React from 'react'
-
+import OrderBtn from '../ui/OrderBtn'
 
 
 const data = () => {
@@ -18,7 +18,7 @@ const data = () => {
                             <h2>{item.name}</h2>
                             <span>{item.price}</span>
                             <div className='inform'>{item.info}</div>
-                            <li><a className='order' href="">ЗАКАЗАТЬ</a></li>
+                            <li><OrderBtn text="Order" /></li>
                         </div>
                     </div>
                 )
