@@ -4,6 +4,7 @@ import Cars from '../advantage'
 import About from './aboutCompany'
 import Rental from './carRental'
 import Sale from './sale'
+import CarPark from './OurCars'
 
 
 
@@ -28,7 +29,7 @@ export default function index() {
                 <Rental/>
             </div>
             <Sale/>
-            
+            <CarPark/>
         </div>
     )
 }

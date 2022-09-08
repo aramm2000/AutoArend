@@ -18,7 +18,7 @@ const data = () => {
                             <h2>{item.name}</h2>
                             <span>{item.price}</span>
                             <div className='inform'>{item.info}</div>
-                            <li><OrderBtn text="Order" /></li>
+                            <li><OrderBtn text="заказать" /></li>
                         </div>
                     </div>
                 )

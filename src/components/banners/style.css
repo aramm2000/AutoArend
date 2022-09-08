@@ -1,9 +1,10 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.banner_first{
+
+.banner_first {
     background-repeat: no-repeat;
     background-image: url('https://ukit.com/templates/c_automobiles/img/full_C7iEeNR8.jpg');
     display: flex;
@@ -13,7 +14,7 @@
     height: 600px;
 }
 
-.text_banner{
+.text_banner {
     width: 40%;
     margin: 0 auto;
     background-color: #f51e45;
@@ -25,37 +26,44 @@
     top: 30px;
     left: 20px;
 }
-.content_first{
+
+.content_first {
     padding: 40px 0
 }
-.content_first > h1 {
+
+.content_first>h1 {
     font-size: 38px
 }
-.content_first > p{
+
+.content_first>p {
     margin: 17px auto
 }
-.content_first > li{
+
+.content_first>li {
     list-style: none;
     margin-top: 50px
 }
-.content_first > li > a {
-    border: 1px solid rgba(166,7,36,1);
+
+.content_first>li>a {
+    border: 1px solid rgba(166, 7, 36, 1);
     padding: 10px 30px;
     background-color: #291f21;
     text-decoration: none;
     color: white;
-    transition:all .3s;
+    transition: all .3s;
 }
-.content_first > li > a:hover{
+
+.content_first>li>a:hover {
     border: 0.px solid black;
     background-color: #f51e45;
 }
 
 
-.banner_two{
+.banner_two {
     background-color: #291f21;
 }
-.Block_Top{
+
+.Block_Top {
     display: flex;
     gap: 30px;
     width: 80%;
@@ -65,12 +73,13 @@
     padding: 50px 0;
 }
 
-.item{
+.item {
     width: 30%;
     border: 1px solid #333;
     transition: all .1s;
 }
-.item > h1{
+
+.item>h1 {
     margin: 0 auto;
     width: 150px;
     height: 150px;
@@ -83,38 +92,44 @@
     justify-content: center;
     margin-top: 20px;
 }
-.item > p {
+
+.item>p {
     color: #a87580;
     font-size: 20px;
     font-weight: bold;
     padding: 30px 0px;
 }
-.text{
+
+.text {
     width: 230px;
     margin: 0 auto;
     color: white;
     padding-bottom: 40px;
 }
-.item:hover{
-    background-color:rgba(0, 0, 0, 0.3)
+
+.item:hover {
+    background-color: rgba(0, 0, 0, 0.3)
 }
 
 
 
-.block_three{
+.block_three {
     width: 78%;
     margin: 0 auto;
     text-align: center;
     padding: 50px 0;
 }
-.block_three > h2{
+
+.block_three>h2 {
     font-weight: 400;
     font-size: 30px;
 }
-.block_three > p {
+
+.block_three>p {
     padding: 30px 0 30px;
 }
-.block_three > a{
+
+.block_three>a {
     padding: 17px 33px;
     background-color: #f51e45;
     text-decoration: none;
@@ -122,12 +137,13 @@
     transition: all .3s;
     border-radius: 25px;
 }
-.block_three > a:hover{
+
+.block_three>a:hover {
     background-color: #291f21;
 }
 
 
-.container_one{
+.container_one {
     width: 80%;
     margin: 0 auto;
     display: flex;
@@ -135,50 +151,56 @@
     justify-content: space-evenly;
     padding: 100px 0;
 }
-.information{
+
+.information {
     width: 28%;
     background-color: white;
     border-bottom: white 2px solid;
     transition: .8s;
 }
-.container_one >.information > img{
+
+.container_one>.information>img {
     margin-bottom: 30px;
     width: 100%;
     height: 43%;
 }
- .information > .text_div  >  li {
+
+.information>.text_div>li {
     list-style: none;
     padding-bottom: 70px;
 }
- .information > .text_div > span{
+
+.information>.text_div>span {
     font-size: 20px;
 }
- .information > .text_div > h2{
+
+.information>.text_div>h2 {
     margin-bottom: 25px;
 }
 
-.inform{
+.inform {
     padding: 20px 0 50px;
 }
-.divv{
+
+.divv {
     background-color: #e6e6e6;
 }
-.text_div{
+
+.text_div {
     width: 80%;
     margin: 0 auto
 }
-.information:hover{
+
+.information:hover {
     box-sizing: border-box;
     border-bottom: #f51e45 2px solid;
 }
 
-
-
-.about_div{
+.about_div {
     background-color: white;
 }
 
-.sale_div > .block_three{
+.sale_div>.block_three {
     width: 70%;
     margin: 0 auto;
     text-align: left;
@@ -186,14 +208,17 @@
     color: white;
     padding: 100px 0;
 }
-.sale_div > .block_three > h2{
+
+.sale_div>.block_three>h2 {
     font-weight: 400;
     font-size: 30px;
 }
-.sale_div > .block_three > p {
+
+.sale_div>.block_three>p {
     padding: 30px 0 30px;
 }
-.sale_div > .block_three > a{
+
+.sale_div>.block_three>a {
     padding: 17px 33px;
     background-color: #f51e45;
     text-decoration: none;
@@ -201,6 +226,42 @@
     transition: all .3s;
     border-radius: 25px;
 }
-.sale_div > .block_three > a:hover{
+
+.sale_div>.block_three>a:hover {
     background-color: #291f21;
+}
+
+.container_two {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 1px 1px;
+    padding: 40px;
+    background-color: white;
+}
+
+.inf {
+    background-color: white;
+    border-bottom: white 2px solid;
+    /* margin: 0; */
+
+}
+
+.container_two>.inf>img {
+    margin-bottom: 10px;
+    height: 300px;
+    width: 300px;
+    margin-left: 10px;
+}
+
+.carBtn {
+    list-style: none;
+    padding-bottom: 20px;
+}
+.condainer_div {
+    text-align: center;
+    background-color: white;
+}
+
+.condainer_div>h1 {
+    padding-top: 60px;
 }
