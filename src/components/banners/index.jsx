@@ -12,14 +12,16 @@ export default function index() {
     return (
         <div>
             <div className="banner_first">
+                <button className="prew"> <i className="fa fa-chevron-left" ></i> </button>
                 <div className="text_banner">
                     <div className="content_first">
                         <h1>АВТО НА ПРОКАТ</h1>
                         <p>Вы можете менять цвет, стиль текста и даже поставить ссылку.<br/> Разместите тут краткое описание вашего спец-предложения, товара или услуги!</p>
                         <li><a href="#">ПОДРОБНЕЕ</a></li> 
-
                     </div>
                 </div>
+                <button className="next"> <i className="fa fa-chevron-right" ></i> </button>
+
             </div>
             <div className="banner_two">
             <Cars/>

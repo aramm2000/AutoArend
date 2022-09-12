@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.phone_ul > li{
+    background-color: #291f21;
+    padding: 20px 33px;
+    list-style: none;
+    color: white;
+    border-radius: 30px;
+    margin-top: 17px;
+}
+.phoneHandler:hover{
+    cursor:none;
+}

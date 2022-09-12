@@ -15,7 +15,7 @@ const data = () => {
     return (
         <>
             <div className="condainer_div">
-                <h1>Наш Автопарк</h1>
+                <h1>Наш автопарк</h1>
                 <div className="container_two">
                     {items.map((item) => {
                         return (

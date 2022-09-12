@@ -234,9 +234,10 @@
 .container_two {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 1px 1px;
+    grid-gap: 40px;
     padding: 40px;
-    background-color: white;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .inf {
@@ -245,11 +246,16 @@
     /* margin: 0; */
 
 }
+.condainer_div > h1{
+    font-weight: 400;
+    font-size: 40px;
+    color: #291f21;
+}
 
 .container_two>.inf>img {
     margin-bottom: 10px;
-    height: 300px;
-    width: 300px;
+    height: 100%;
+    width: 100%;
     margin-left: 10px;
 }
 
@@ -264,4 +270,36 @@
 
 .condainer_div>h1 {
     padding-top: 60px;
+}
+
+
+
+.prew, .next {
+    color: white;
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    background-color: black;
+    opacity: 0.7;
+    font-size: 40px;
+    margin: 0 15px;
+    border: none;
+}
+
+.next:hover{
+    background-color: #f51e45;
+    cursor: pointer;
+    opacity: 1;
+}
+.prew:hover{
+    background-color: #f51e45;
+    cursor: pointer;
+    opacity: 1;
+}
+
+
+.slide > span{
+    width: 8px;
+    height: 8px;
+    background-color: #fff;
 }
