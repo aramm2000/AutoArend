@@ -19,7 +19,7 @@ export default function Sale() {
         <p>Разместите тут краткое описание вашего спец-предложения, товара или услуги! Таким образом можно компоновать блоки используя текстовый виджет и рядом с ним поставить произвольную картинку. Вы можете менять цвет, стиль текста и даже поставить ссылку.</p>
         <a className='phoneHandler' onClick={menuHandler} >ПОЗВОНИТЬ НАМ</a>
         
-        <div style={{ display: close ? 'initial' : 'none' }} >
+        <div className='phon' style={{ display: close ? 'initial' : 'none' }} >
           <ul className='phone_ul'>
             <li><i className="fa fa-phone"></i>+(123)-45-67-89</li>
           </ul>

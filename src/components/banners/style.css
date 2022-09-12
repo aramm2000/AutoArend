@@ -127,6 +127,7 @@
 
 .block_three>p {
     padding: 30px 0 30px;
+    cursor: context-menu;
 }
 
 .block_three>a {
@@ -198,6 +199,10 @@
 
 .about_div {
     background-color: white;
+    position: relative;
+}
+.sale_div{
+    position: relative;
 }
 
 .sale_div>.block_three {
@@ -240,6 +245,8 @@
     margin: 0 auto;
 }
 
+
+
 .inf {
     background-color: white;
     border-bottom: white 2px solid;
@@ -257,6 +264,13 @@
     height: 100%;
     width: 100%;
     margin-left: 10px;
+    cursor: pointer;
+}
+
+.phon{
+    position: absolute;
+    left: 238px;
+    bottom: 22px;
 }
 
 .carBtn {
@@ -303,3 +317,36 @@
     height: 8px;
     background-color: #fff;
 }
+
+
+
+.information_div{
+    position: absolute;
+    top: 23px;
+    left: 410px;
+    border: 1px solid black;
+    width: 50%;
+    background-color: #291f21;
+    color: white;
+    cursor: context-menu;
+    transition: 10s;
+}
+.info_text{
+    padding: 20px;
+    font-size: 13px;
+}
+.closse{
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    font-size: 20px;
+}
+
+.information_div > .info_text > p > a{
+    text-decoration: none;
+    color: #ff9b9b;
+    font-size: 16px;
+}
+ .block_three > a {
+    cursor: context-menu;
+ }
